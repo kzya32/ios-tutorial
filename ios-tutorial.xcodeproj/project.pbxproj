@@ -14,6 +14,7 @@
 		E5C687D52238DBA2008BDB10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C687D32238DBA2008BDB10 /* LaunchScreen.storyboard */; };
 		E5C687E02238DBA3008BDB10 /* ios_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C687DF2238DBA3008BDB10 /* ios_tutorialTests.swift */; };
 		E5C687EB2238DBA3008BDB10 /* ios_tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C687EA2238DBA3008BDB10 /* ios_tutorialUITests.swift */; };
+		E5C687FB2238F463008BDB10 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C687FA2238F463008BDB10 /* InputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E5C687E62238DBA3008BDB10 /* ios-tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-tutorialUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C687EA2238DBA3008BDB10 /* ios_tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_tutorialUITests.swift; sourceTree = "<group>"; };
 		E5C687EC2238DBA3008BDB10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C687FA2238F463008BDB10 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E5C687D12238DBA2008BDB10 /* Assets.xcassets */,
 				E5C687D32238DBA2008BDB10 /* LaunchScreen.storyboard */,
 				E5C687D62238DBA2008BDB10 /* Info.plist */,
+				E5C687FA2238F463008BDB10 /* InputViewController.swift */,
 			);
 			path = "ios-tutorial";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C687FB2238F463008BDB10 /* InputViewController.swift in Sources */,
 				E5C687CD2238DB9D008BDB10 /* ViewController.swift in Sources */,
 				E5C687CB2238DB9D008BDB10 /* AppDelegate.swift in Sources */,
 			);
